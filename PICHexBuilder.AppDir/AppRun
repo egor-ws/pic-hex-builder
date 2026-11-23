@@ -1,0 +1,4 @@
+#!/bin/bash
+export PATH="/opt/microchip/xc16/v2.10/bin:$PATH"
+HERE="$(dirname "$(readlink -f "${0}")")"
+exec "${HERE}/usr/bin/PICHexBuilder" "$@"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=PIC Hex Builder
+Comment=Сборка прошивок PIC
+Exec=PICHexBuilder
+Icon=picbuilder
+Terminal=false
+Type=Application
+Categories=Development;
